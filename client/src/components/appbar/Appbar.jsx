@@ -5,8 +5,23 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import LoginIcon from "@mui/icons-material/Login";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import MenuItem from "@mui/material/MenuItem";
+import Menu from "@mui/material/Menu";
+import { useState } from "react";
 
 const Appbar = () => {
+  const user = "admin";
+  const userMenu = ["Profile", "Orders", "Logout"];
+  const adminMenu = ["Setting", "Dashboard", "Logout"];
+  const [open, setOpen] = useState(null);
+  const menuOpen = (event) => {
+    setOpen(event.currentTarget);
+  };
+  const menuClose = () => {
+    setOpen(null);
+  };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: "white" }}>
@@ -20,9 +35,66 @@ const Appbar = () => {
             <IconButton>
               <ShoppingCartIcon />
             </IconButton>
-            <IconButton>
-              <LoginIcon />
-            </IconButton>
+
+            {user === "user" ? (
+              <>
+                <IconButton onClick={menuOpen}>
+                  <AccountCircleIcon />
+                </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={open}
+                  anchorOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  open={Boolean(open)}
+                  onClose={menuClose}
+                >
+                  {userMenu.map((item) => (
+                    <MenuItem key={item} onClick={menuClose}>
+                      {item}
+                    </MenuItem>
+                  ))}
+                </Menu>
+              </>
+            ) : user === "admin" ? (
+              <>
+                <IconButton onClick={menuOpen}>
+                  <AccountCircleIcon />
+                </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={open}
+                  anchorOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  open={Boolean(open)}
+                  onClose={menuClose}
+                >
+                  {adminMenu.map((item) => (
+                    <MenuItem key={item} onClick={menuClose}>
+                      {item}
+                    </MenuItem>
+                  ))}
+                </Menu>
+              </>
+            ) : (
+              <IconButton>
+                <LoginIcon />
+              </IconButton>
+            )}
           </Box>
         </Toolbar>
       </AppBar>

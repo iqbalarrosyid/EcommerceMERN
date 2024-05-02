@@ -1,6 +1,7 @@
 import Appbar from "../../components/appbar/Appbar";
 import Footer from "../../components/footer/Footer";
 import { Box } from "@mui/material";
+import Products from "../products/Products";
 
 const Home = () => {
   return (
@@ -8,14 +9,16 @@ const Home = () => {
       <Appbar />
       <Box
         sx={{
-          height: 500,
+          minHeight: 700,
           m: 2,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          flexWrap: "wrap",
+          gap: 2,
         }}
       >
-        Products
+        <Products />
       </Box>
       <Footer />
     </div>
