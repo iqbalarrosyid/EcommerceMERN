@@ -14,8 +14,6 @@ const Home = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          flexWrap: "wrap",
-          gap: 2,
         }}
       >
         <Products />
