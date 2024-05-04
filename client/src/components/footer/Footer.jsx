@@ -33,17 +33,19 @@ const Footer = () => {
         </Box>
         <Box sx={{ paddingTop: 1, paddingRight: 10 }}>
           <Typography variant="body2">
-            <h3>Kontak dan Lokasi</h3>
-            <br />
-            <p>Kontak: 083894056521</p>
-            <p>
-              393R+5XP, Ngrancah, Sriharjo, Kec. Imogiri, Kabupaten Bantul,
-              Daerah Istimewa Yogyakarta 55782
-            </p>
+            <Box>
+              <h3>Kontak dan Lokasi</h3>
+              <br />
+              <p>Kontak: 083894056521</p>
+              <p>
+                393R+5XP, Ngrancah, Sriharjo, Kec. Imogiri, Kabupaten Bantul,
+                Daerah Istimewa Yogyakarta 55782
+              </p>
+            </Box>
           </Typography>
         </Box>
         <Box sx={{ paddingTop: 1 }}>
-          <Typography variant="body2">
+          <Typography>
             <h3>Sosial Media</h3>
             <br />
           </Typography>
@@ -58,7 +60,7 @@ const Footer = () => {
 
       <Box sx={{ textAlign: "center", padding: 2, backgroundColor: "#f0f0f0" }}>
         <Typography variant="body2" sx={{ color: "gray" }}>
-          &copy; RB Teknik37 {year}
+          © RB Teknik37 {year}
         </Typography>
       </Box>
     </>
