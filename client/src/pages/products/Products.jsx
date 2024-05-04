@@ -13,8 +13,13 @@ const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const searchFunction = (e) => {
     setSearchTerm(e.target.value);
-    console.log(e.target.value);
   };
+
+  const filtered = (product) => {
+    return product.name.toLowerCase().includes(searchTerm.toLowerCase());
+  };
+  const filteredProducts = products.filter(filtered);
+
   return (
     <Box sx={{ display: "flex", flexDirection: "column", width: "100%", p: 2 }}>
       <Box>
@@ -35,7 +40,7 @@ const Products = () => {
           mt: 2,
         }}
       >
-        {products.map((product) => (
+        {filteredProducts.map((product) => (
           <Card key={product.name} sx={{ width: 210, minHeight: 280 }}>
             <CardActionArea>
               <CardMedia

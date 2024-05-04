@@ -12,7 +12,7 @@ const Home = () => {
           minHeight: 700,
           m: 2,
           display: "flex",
-          alignItems: "center",
+          alignItems: "start",
           justifyContent: "center",
         }}
       >
