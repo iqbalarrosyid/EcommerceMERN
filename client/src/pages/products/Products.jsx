@@ -8,6 +8,7 @@ import StarRoundedIcon from "@mui/icons-material/StarRounded";
 import { Box } from "@mui/system";
 import { useState } from "react";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
+import Pagination from "@mui/material/Pagination";
 
 
 const Products = () => {
@@ -29,6 +30,17 @@ const Products = () => {
   };
   const filteredProducts = products.filter(filtered);
   const categories = [...new Set(products.map((product) => product.category))];
+
+  const productPerPage = 20
+  const [currentPage, setCurrentPage] = useState(1)
+
+  const startIndex = (currentPage - 1) * productPerPage
+  const endIndex = startIndex + productPerPage
+  const paginatedProducts = filteredProducts.slice(startIndex, endIndex)
+  const pageCount = Math.ceil(filteredProducts.length / productPerPage)
+  const pageChanging = (event, page) =>{
+    setCurrentPage(page)
+  }
 
   return (
     <Box sx={{ display: "flex", flexDirection: "column", width: "100%", p: 2 }}>
@@ -65,7 +77,7 @@ const Products = () => {
           mt: 2,
         }}
       >
-        {filteredProducts.map((product) => (
+        {paginatedProducts.map((product) => (
           <Card key={product.name} sx={{ width: 210, minHeight: 280 }}>
             <CardActionArea>
               <CardMedia
@@ -103,6 +115,9 @@ const Products = () => {
             </CardContent>
           </Card>
         ))}
+      </Box>
+      <Box sx={{p: 2, display: "flex", justifyContent: "center"}}>
+        <Pagination count={pageCount || 1} page={currentPage} onChange={pageChanging}/>
       </Box>
     </Box>
   );

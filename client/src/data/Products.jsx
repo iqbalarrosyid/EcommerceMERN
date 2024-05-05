@@ -1,220 +1,10 @@
 const products = [
   {
     _id: {
-      $oid: "6566c165801e99be12650c13",
+      $oid: "6566c165801e99be12650c22",
     },
-    name: "Standing pot / Tempat tanaman/Pot besi/ Pot kayu",
+    name: "Kursi Malas Rotan",
     image: [
-      {
-        link: "https://down-id.img.susercontent.com/file/id-11134207-7r991-lmqvtkmej44r3a",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
-    ],
-    desc: "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
-    category: "Dekorasi",
-    price: 45000,
-    capital: 45000,
-    profit: 10000,
-    stock: 10,
-    weight: 1708,
-    rating: 4.5,
-    reviews: [
-      {
-        user: "64aa82aba176b956ba8982c1",
-        rating: 5,
-        comment:
-          "Revision of Extraluminal Device in Ureter, Percutaneous Endoscopic Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898250",
-        rating: 3,
-        comment:
-          "Supplement Right Brachial Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",
-      },
-    ],
-  },
-  {
-    _id: {
-      $oid: "6566c165801e99be12650c0c",
-    },
-    name: "Stool bulat roda / stool sofa / stool kaki besi / kursi meja rias/ puff sultan / stool tabung",
-    image: [
-      {
-        link: "https://down-id.img.susercontent.com/file/id-11134207-7r98v-lltzvu8nccv395",
-        _id: {
-          $oid: "65892ae3994dec19816b73bb",
-        },
-      },
-      {
-        link: "https://app1.jadidalmagribi.com/images/pexels-photo-1300975-1703488227110.jpeg",
-        _id: {
-          $oid: "65892ae3994dec19816b73bc",
-        },
-      },
-      {
-        link: "https://app1.jadidalmagribi.com/images/purple-grapes-vineyard-napa-valley-napa-vineyard-45209-1703488227113.jpeg",
-        _id: {
-          $oid: "65892ae3994dec19816b73bd",
-        },
-      },
-      {
-        link: "https://app1.jadidalmagribi.com/images/strawberries-frisch-ripe-sweet-89778-1703488227114.jpeg",
-        _id: {
-          $oid: "65892ae3994dec19816b73be",
-        },
-      },
-      {
-        link: "https://app1.jadidalmagribi.com/images/strawberries-red-fruit-royalty-free-70746-1703488227115.jpeg",
-        _id: {
-          $oid: "65892ae3994dec19816b73bf",
-        },
-      },
-    ],
-    desc: "<p>Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.</p>",
-    category: "Kursi",
-    price: 304000,
-    capital: 304000,
-    profit: 10000,
-    stock: 44,
-    weight: 2479,
-    rating: 5,
-    reviews: [
-      {
-        user: "64aa82aba176b956ba8982a2",
-        rating: 3,
-        comment: "Revision of Monitoring Device in Brain, Open Approach",
-      },
-      {
-        user: "64aa82aba176b956ba8982c1",
-        rating: 1,
-        comment: "Division of Left Temporal Bone, Open Approach",
-      },
-      {
-        user: "64aa82aba176b956ba8981a8",
-        rating: 5,
-        comment:
-          "Supplement Right Breast with Synthetic Substitute, External Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898230",
-        rating: 2,
-        comment:
-          "Excision of Right Upper Extremity Bursa and Ligament, Percutaneous Endoscopic Approach",
-      },
-      {
-        user: {
-          $oid: "652ba75b93f29666cf776283",
-        },
-        rating: 5,
-        comment: "Bagus sekali\n",
-        _id: {
-          $oid: "6580e77fbd189015e5ad7f73",
-        },
-        product: {
-          $oid: "6566c165801e99be12650c0c",
-        },
-      },
-      {
-        user: {
-          $oid: "657dab2b39550c5de9dde776",
-        },
-        rating: 5,
-        comment: "coba lagi",
-        _id: {
-          $oid: "65811d6763169d86292ac87a",
-        },
-      },
-    ],
-    updatedAt: {
-      $date: "2023-12-25T07:10:27.159Z",
-    },
-    __v: 2,
-  },
-  {
-    _id: {
-      $oid: "6566c165801e99be12650c14",
-    },
-    name: "Stool puff/ stool bulat / stool ottoman/ stool tabung / kursi sofa / stool sofa / sofa kaki besi / stool meja rias / kursi meja rias",
-    image: [
-      {
-        link: "https://down-id.img.susercontent.com/file/sg-11134201-22120-u0fk9oh3uelvf9",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
-    ],
-    desc: "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
-    category: "Kursi",
-    price: 275500,
-    capital: 275500,
-    profit: 10000,
-    stock: 45,
-    weight: 2828,
-    rating: 4,
-    reviews: [
-      {
-        user: {
-          $oid: "652ba75b93f29666cf776283",
-        },
-        rating: 5,
-        comment: "Keren Brooo",
-        _id: {
-          $oid: "658044b767e02a805fee2a1c",
-        },
-      },
-    ],
-    __v: 1,
-    updatedAt: {
-      $date: "2023-12-18T13:10:15.954Z",
-    },
-  },
-  {
-    _id: {
-      $oid: "6566c165801e99be12650c20",
-    },
-    name: "SOFA BENCH/SOFA KOTAK/BANGKU PANJANG",
-    image: [
-      {
-        link: "https://down-id.img.susercontent.com/file/id-11134207-7qukx-lh36wuqsmaqibb",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
       {
         link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
@@ -222,44 +12,48 @@ const products = [
         link: "http://dummyimage.com/650x650.png/dddddd/000000",
       },
     ],
-    desc: "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    desc: "Kursi malas dengan bahan rotan alami, cocok untuk bersantai di teras atau taman.",
     category: "Kursi",
-    price: 750000,
-    capital: 750000,
-    profit: 10000,
-    stock: 84,
-    weight: 138,
-    rating: 5,
+    price: 800000,
+    capital: 650000,
+    profit: 150000,
+    stock: 7,
+    weight: 6000,
+    rating: 4.4,
     reviews: [
       {
-        user: "64aa82aba176b956ba898331",
-        rating: 1,
-        comment:
-          "Bypass Superior Mesenteric Vein to Lower Vein, Percutaneous Endoscopic Approach",
+        user: "64aa82aba176b956ba898500",
+        rating: 4,
+        comment: "Kursi yang sangat nyaman dan cocok untuk bersantai.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c23",
+    },
+    name: "Meja Kerja L Lipat",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
-        user: "64aa82aba176b956ba898387",
-        rating: 3,
-        comment:
-          "Dilation of Left Common Iliac Artery, Bifurcation, with Two Drug-eluting Intraluminal Devices, Percutaneous Endoscopic Approach",
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
       },
+    ],
+    desc: "Meja kerja berbentuk L yang bisa dilipat untuk menghemat ruang.",
+    category: "Meja",
+    price: 1300000,
+    capital: 1100000,
+    profit: 200000,
+    stock: 5,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
       {
-        user: "64aa82aba176b956ba8981d8",
-        rating: 1,
-        comment:
-          "Supplement Left Common Carotid Artery with Autologous Tissue Substitute, Percutaneous Endoscopic Approach",
-      },
-      {
-        user: "64aa82aba176b956ba89822c",
-        rating: 2,
-        comment:
-          "Plain Radiography of Right Upper Extremity Lymphatics using Low Osmolar Contrast",
-      },
-      {
-        user: "64aa82aba176b956ba8981f1",
-        rating: 2,
-        comment:
-          "Drainage of Perineum Bursa and Ligament with Drainage Device, Open Approach",
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Meja yang kokoh dan desainnya praktis.",
       },
     ],
   },
@@ -267,53 +61,115 @@ const products = [
     _id: {
       $oid: "6566c165801e99be12650c24",
     },
-    name: "stool bulat/kursi sofa/stool ottoman/stool puff",
+    name: "Rak Buku Besar",
     image: [
       {
-        link: "https://down-id.img.susercontent.com/file/1b01ffd3c5a917677cfb0b6ebb4e0fc9",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
-      {
         link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
         link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
       },
     ],
-    desc: "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-    category: "Kursi",
-    price: 185000,
-    capital: 185000,
-    profit: 10000,
-    stock: 37,
-    weight: 1404,
-    rating: 1,
+    desc: "Rak buku besar dengan lima tingkat, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Rak",
+    price: 950000,
+    capital: 750000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.2,
     reviews: [
       {
-        user: "64aa82aba176b956ba8981a6",
-        rating: 3,
-        comment:
-          "Drainage of Left Hypogastric Vein, Percutaneous Endoscopic Approach",
+        user: "64aa82aba176b956ba898340",
+        rating: 4,
+        comment: "Rak yang kokoh dan memiliki banyak ruang.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c25",
+    },
+    name: "Lemari Pakaian 4 Pintu",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lemari pakaian dengan empat pintu, cocok untuk ruang pakaian besar.",
+    category: "Lemari",
+    price: 1500000,
+    capital: 1300000,
+    profit: 200000,
+    stock: 4,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898440",
+        rating: 5,
+        comment: "Lemari pakaian yang luas dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c26",
+    },
+    name: "Kursi Lipat Kayu",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Kursi lipat yang terbuat dari kayu, ringan dan praktis untuk digunakan.",
+    category: "Kursi",
+    price: 350000,
+    capital: 300000,
+    profit: 50000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 4,
+        comment: "Kursi yang ringan dan mudah disimpan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c27",
+    },
+    name: "Lampu Meja dengan Penyangga Kayu Kecil",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu meja dengan penyangga kayu, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 200000,
+    capital: 150000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.4,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan modern.",
       },
     ],
   },
@@ -321,689 +177,813 @@ const products = [
     _id: {
       $oid: "6566c165801e99be12650c28",
     },
-    name: "STOOL RODA / PUFF SULTAN RODA / STOOL TABUNG RODA / KURSI MEJA RIAS / STOOL SALUR RODA",
+    name: "Rak Sepatu Plastik",
     image: [
-      {
-        link: "https://down-id.img.susercontent.com/file/id-11134207-7qul0-lhsescdarkvze3",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
       {
         link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
         link: "http://dummyimage.com/650x650.png/dddddd/000000",
       },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
     ],
-    desc: "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-    category: "Kursi",
-    price: 370000,
-    capital: 370000,
-    profit: 10000,
-    stock: 40,
-    weight: 2811,
-    rating: 4.8,
+    desc: "Rak sepatu terbuat dari plastik, ringan dan mudah dipindahkan.",
+    category: "Rak",
+    price: 300000,
+    capital: 250000,
+    profit: 50000,
+    stock: 15,
+    weight: 3000,
+    rating: 4.1,
     reviews: [
       {
-        user: "64aa82aba176b956ba8981a9",
-        rating: 2,
-        comment:
-          "Dilation of Right Ulnar Artery, Bifurcation, with Three Drug-eluting Intraluminal Devices, Open Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898301",
+        user: "64aa82aba176b956ba898490",
         rating: 4,
-        comment:
-          "Extirpation of Matter from Inferior Mesenteric Artery, Bifurcation, Percutaneous Endoscopic Approach",
-      },
-      {
-        user: "64aa82aba176b956ba89828b",
-        rating: 2,
-        comment: "Release Sacral Nerve, Open Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898207",
-        rating: 1,
-        comment: "Transplantation of Esophagus, Allogeneic, Open Approach",
-      },
-      {
-        user: "64aa82aba176b956ba89821a",
-        rating: 4,
-        comment:
-          "Revision of Synthetic Substitute in Bladder, Percutaneous Approach",
+        comment: "Rak sepatu yang praktis dan mudah dipasang.",
       },
     ],
   },
-  
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c01"
-      },
-      "name": "Meja Kantor Minimalis",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Meja kantor minimalis dengan bahan kayu solid, cocok untuk kantor atau ruang kerja di rumah.",
-      "category": "Meja",
-      "price": 1200000,
-      "capital": 1000000,
-      "profit": 200000,
-      "stock": 5,
-      "weight": 25000,
-      "rating": 4.2,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898300",
-          "rating": 4,
-          "comment": "Meja yang kokoh dan desainnya sangat modern."
-        }
-      ]
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c29",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c02"
+    name: "Stool Kayu Minimalis",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Meja Tamu Klasik",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Meja tamu dengan desain klasik dan sentuhan ukiran kayu, cocok untuk ruang tamu yang bergaya tradisional.",
-      "category": "Meja",
-      "price": 950000,
-      "capital": 750000,
-      "profit": 200000,
-      "stock": 3,
-      "weight": 14000,
-      "rating": 4.2,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898360",
-          "rating": 5,
-          "comment": "Meja yang cantik dan sangat sesuai dengan dekorasi rumah tradisional."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool kayu dengan desain minimalis, cocok untuk ruang tamu atau ruang belajar.",
+    category: "Kursi",
+    price: 350000,
+    capital: 300000,
+    profit: 50000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sederhana dan elegan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c30",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c03"
+    name: "Bangku Panjang dengan Sandaran",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Meja Makan Minimalis",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Meja makan dengan desain minimalis, cocok untuk rumah modern.",
-      "category": "Meja",
-      "price": 2500000,
-      "capital": 2000000,
-      "profit": 500000,
-      "stock": 3,
-      "weight": 20000,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898390",
-          "rating": 5,
-          "comment": "Meja makan yang elegan dan sangat kokoh."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Bangku panjang dengan sandaran, ideal untuk ruang makan atau teras rumah.",
+    category: "Kursi",
+    price: 850000,
+    capital: 750000,
+    profit: 100000,
+    stock: 6,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 4,
+        comment: "Bangku yang sangat kokoh dan nyaman.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c31",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c04"
+    name: "Lemari Buku dengan Rak Tersembunyi",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Meja Belajar Lipat",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Meja belajar lipat yang praktis dan mudah disimpan, cocok untuk anak-anak.",
-      "category": "Meja",
-      "price": 350000,
-      "capital": 300000,
-      "profit": 50000,
-      "stock": 10,
-      "weight": 2000,
-      "rating": 4.0,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898340",
-          "rating": 4,
-          "comment": "Praktis dan hemat tempat, cocok untuk anak-anak."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lemari buku dengan rak tersembunyi, ideal untuk ruang kerja atau perpustakaan pribadi.",
+    category: "Lemari",
+    price: 1100000,
+    capital: 900000,
+    profit: 200000,
+    stock: 5,
+    weight: 14000,
+    rating: 4.4,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 5,
+        comment: "Desain yang cerdas dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c32",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c05"
+    name: "Meja Kerja Sudut",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Meja Rias Minimalis",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Meja rias dengan desain minimalis, memiliki cermin dan beberapa laci untuk penyimpanan.",
-      "category": "Meja",
-      "price": 1200000,
-      "capital": 1000000,
-      "profit": 200000,
-      "stock": 4,
-      "weight": 12000,
-      "rating": 4.3,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898470",
-          "rating": 5,
-          "comment": "Meja rias yang elegan dan fungsional."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja dengan desain sudut, ideal untuk ruang kerja yang terbatas.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 4,
+    weight: 23000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898410",
+        rating: 5,
+        comment: "Desain yang cerdas dan sangat praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c33",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c06"
+    name: "Kursi Kantor Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Kursi Kayu dengan Bantalan",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Kursi kayu dengan bantalan untuk kenyamanan ekstra, cocok untuk ruang makan atau ruang tamu.",
-      "category": "Kursi",
-      "price": 550000,
-      "capital": 450000,
-      "profit": 100000,
-      "stock": 10,
-      "weight": 6000,
-      "rating": 4.4,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898510",
-          "rating": 4,
-          "comment": "Kursi yang sangat nyaman dan desainnya bagus."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Kursi kantor dengan desain modern, cocok untuk bekerja dalam waktu lama.",
+    category: "Kursi",
+    price: 850000,
+    capital: 750000,
+    profit: 100000,
+    stock: 6,
+    weight: 8000,
+    rating: 4.5,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Kursi yang sangat nyaman dan mendukung produktivitas.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c34",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c07"
+    name: "Meja TV dengan Rak",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Kursi Lipat Plastik",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Kursi lipat yang terbuat dari plastik, ringan dan praktis untuk digunakan di berbagai acara.",
-      "category": "Kursi",
-      "price": 150000,
-      "capital": 120000,
-      "profit": 30000,
-      "stock": 15,
-      "weight": 1000,
-      "rating": 4.0,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898380",
-          "rating": 4,
-          "comment": "Sangat ringan dan mudah disimpan."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan rak tambahan, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 4,
+        comment: "Meja TV yang fungsional dan memiliki banyak ruang.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c35",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c08"
+    name: "Rak Buku Tinggi",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Kursi Kantor Ergonomis",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Kursi kantor dengan desain ergonomis untuk kenyamanan dalam bekerja.",
-      "category": "Kursi",
-      "price": 750000,
-      "capital": 600000,
-      "profit": 150000,
-      "stock": 6,
-      "weight": 8000,
-      "rating": 4.6,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898400",
-          "rating": 5,
-          "comment": "Kursi yang sangat nyaman dan mendukung postur tubuh."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak buku tinggi dengan desain minimalis, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Rak",
+    price: 750000,
+    capital: 600000,
+    profit: 150000,
+    stock: 5,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898460",
+        rating: 4,
+        comment: "Rak buku yang tinggi dan sangat kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c36",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c09"
+    name: "Stool Roda dengan Bantalan 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Kursi Bulat Rotan",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Kursi bulat terbuat dari rotan alami, ringan dan cocok untuk ruangan dengan gaya alami.",
-      "category": "Kursi",
-      "price": 450000,
-      "capital": 350000,
-      "profit": 100000,
-      "stock": 7,
-      "weight": 1500,
-      "rating": 4.3,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898320",
-          "rating": 4,
-          "comment": "Desain yang menarik, sangat ringan dan mudah dipindahkan."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool dengan roda dan bantalan lembut, ideal untuk ruang kerja atau ruang belajar.",
+    category: "Kursi",
+    price: 550000,
+    capital: 450000,
+    profit: 100000,
+    stock: 6,
+    weight: 3000,
+    rating: 4.5,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sangat nyaman dan mudah digerakkan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c37",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c10"
+    name: "Meja Belajar Lipat dengan Rak",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Kursi Gantung Rotan",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Kursi gantung yang terbuat dari rotan alami, cocok untuk taman atau teras rumah.",
-      "category": "Kursi",
-      "price": 1350000,
-      "capital": 1100000,
-      "profit": 250000,
-      "stock": 5,
-      "weight": 10000,
-      "rating": 4.3,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898370",
-          "rating": 5,
-          "comment": "Sangat nyaman dan cocok untuk bersantai di taman."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja belajar lipat dengan rak tambahan, cocok untuk anak-anak.",
+    category: "Meja",
+    price: 400000,
+    capital: 350000,
+    profit: 50000,
+    stock: 10,
+    weight: 2000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898341",
+        rating: 4,
+        comment: "Praktis dan mudah disimpan, dengan rak tambahan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c38",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c11"
+    name: "Lemari Buku dengan Rak Tambahan",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Lemari Pakaian 2 Pintu",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Lemari pakaian dengan dua pintu, memiliki banyak ruang untuk pakaian dan aksesori.",
-      "category": "Lemari",
-      "price": 850000,
-      "capital": 700000,
-      "profit": 150000,
-      "stock": 4,
-      "weight": 15000,
-      "rating": 4.3,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898410",
-          "rating": 4,
-          "comment": "Lemari yang kokoh dan memiliki banyak ruang."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lemari buku dengan rak tambahan, cocok untuk ruang kerja atau perpustakaan pribadi.",
+    category: "Lemari",
+    price: 750000,
+    capital: 600000,
+    profit: 150000,
+    stock: 4,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 5,
+        comment: "Desain yang sangat praktis dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c39",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c12"
+    name: "Meja Kerja Sudut L",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Lemari Hiasan Kaca",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Lemari hiasan dengan pintu kaca, cocok untuk memajang koleksi atau hiasan.",
-      "category": "Lemari",
-      "price": 1500000,
-      "capital": 1300000,
-      "profit": 200000,
-      "stock": 4,
-      "weight": 20000,
-      "rating": 4.3,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898440",
-          "rating": 5,
-          "comment": "Lemari yang indah untuk memajang hiasan atau koleksi."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja sudut berbentuk L, ideal untuk ruang kerja yang luas.",
+    category: "Meja",
+    price: 1500000,
+    capital: 1300000,
+    profit: 200000,
+    stock: 5,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Meja yang kokoh dan sangat praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c40",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c13"
+    name: "Stool Bulat Minimalis",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Lemari Buku Kayu",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Rak buku terbuat dari kayu dengan desain klasik, ideal untuk ruang tamu atau perpustakaan pribadi.",
-      "category": "Lemari",
-      "price": 750000,
-      "capital": 600000,
-      "profit": 150000,
-      "stock": 4,
-      "weight": 12000,
-      "rating": 4.1,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898350",
-          "rating": 4,
-          "comment": "Desain yang elegan dan kokoh, cukup mudah dirakit."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool bulat dengan desain minimalis, cocok untuk ruang tamu atau ruang kerja.",
+    category: "Kursi",
+    price: 350000,
+    capital: 300000,
+    profit: 50000,
+    stock: 8,
+    weight: 2500,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sederhana namun kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c41",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c14"
+    name: "Meja TV dengan Penyangga Logam 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Meja TV Modern",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Meja TV dengan desain modern, memiliki ruang untuk penyimpanan perangkat hiburan.",
-      "category": "Meja",
-      "price": 1050000,
-      "capital": 850000,
-      "profit": 200000,
-      "stock": 5,
-      "weight": 17000,
-      "rating": 4.4,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898420",
-          "rating": 4,
-          "comment": "Meja TV yang fungsional dan desainnya menarik."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan penyangga logam, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898410",
+        rating: 5,
+        comment: "Desain yang menarik dan sangat fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c42",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c15"
+    name: "Meja Belajar dengan Rak",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Rak Sepatu Besi",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Rak sepatu terbuat dari besi, memiliki beberapa tingkat untuk menyimpan sepatu.",
-      "category": "Rak",
-      "price": 450000,
-      "capital": 350000,
-      "profit": 100000,
-      "stock": 8,
-      "weight": 5000,
-      "rating": 4.1,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898490",
-          "rating": 4,
-          "comment": "Rak sepatu yang sederhana namun fungsional."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja belajar dengan rak tambahan, cocok untuk ruang kerja atau ruang belajar.",
+    category: "Meja",
+    price: 400000,
+    capital: 350000,
+    profit: 50000,
+    stock: 10,
+    weight: 2000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898340",
+        rating: 4,
+        comment: "Praktis dan mudah digunakan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c43",
     },
-    
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c17"
+    name: "Lampu Meja Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Vas Bunga Modern",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Vas bunga dengan desain modern, cocok untuk dekorasi meja atau lemari.",
-      "category": "Dekorasi",
-      "price": 150000,
-      "capital": 100000,
-      "profit": 50000,
-      "stock": 20,
-      "weight": 500,
-      "rating": 4.3,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898460",
-          "rating": 4,
-          "comment": "Vas bunga yang sangat cantik dan cocok untuk dekorasi."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu meja dengan desain modern, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan memberikan suasana yang bagus.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c44",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c18"
+    name: "Stool Lipat dengan Bantalan 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Lampu Hias Meja",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Lampu hias meja dengan desain unik, cocok untuk dekorasi dan penerangan tambahan.",
-      "category": "Dekorasi",
-      "price": 250000,
-      "capital": 200000,
-      "profit": 50000,
-      "stock": 12,
-      "weight": 1000,
-      "rating": 4.2,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898470",
-          "rating": 5,
-          "comment": "Lampu yang sangat menarik dan memberikan suasana yang bagus."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool lipat dengan bantalan, cocok untuk ruang tamu atau ruang makan.",
+    category: "Kursi",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang nyaman dan mudah disimpan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c45",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c19"
+    name: "Kursi Gantung Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Rak Buku Gantung",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Rak buku gantung yang praktis, cocok untuk ruang tamu atau ruang belajar.",
-      "category": "Rak",
-      "price": 550000,
-      "capital": 450000,
-      "profit": 100000,
-      "stock": 6,
-      "weight": 7000,
-      "rating": 4.1,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898340",
-          "rating": 4,
-          "comment": "Rak yang praktis dan sangat cocok untuk ruang belajar."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Kursi gantung dengan desain modern, cocok untuk teras atau taman.",
+    category: "Kursi",
+    price: 1350000,
+    capital: 1100000,
+    profit: 250000,
+    stock: 5,
+    weight: 10000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898370",
+        rating: 5,
+        comment: "Sangat nyaman dan cocok untuk bersantai.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c46",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c20"
+    name: "Lemari Hiasan Kayu",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Bangku Panjang Kayu",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Bangku panjang terbuat dari kayu solid, cocok untuk ruang makan atau teras rumah.",
-      "category": "Kursi",
-      "price": 650000,
-      "capital": 550000,
-      "profit": 100000,
-      "stock": 7,
-      "weight": 15000,
-      "rating": 4.2,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898480",
-          "rating": 4,
-          "comment": "Bangku yang kokoh dan desainnya sederhana."
-        }
-      ]
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lemari hiasan terbuat dari kayu dengan desain modern, cocok untuk dekorasi.",
+    category: "Lemari",
+    price: 1500000,
+    capital: 1300000,
+    profit: 200000,
+    stock: 4,
+    weight: 20000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898440",
+        rating: 5,
+        comment: "Desain yang modern dan sangat kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c47",
     },
-    {
-      "_id": {
-        "$oid": "6566c165801e99be12650c21"
+    name: "Bangku Panjang Rotan Kecil",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
-      "name": "Stool Roda",
-      "image": [
-        {
-          "link": "http://dummyimage.com/650x650.png/ff4444/ffffff"
-        },
-        {
-          "link": "http://dummyimage.com/650x650.png/dddddd/000000"
-        }
-      ],
-      "desc": "Stool dengan roda yang dapat diputar, ideal untuk ruang kerja atau studio.",
-      "category": "Kursi",
-      "price": 550000,
-      "capital": 450000,
-      "profit": 100000,
-      "stock": 6,
-      "weight": 3000,
-      "rating": 4.4,
-      "reviews": [
-        {
-          "user": "64aa82aba176b956ba898330",
-          "rating": 5,
-          "comment": "Sangat berguna dan mudah digerakkan."
-        }
-      ]
-    }
-  
-,  
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Bangku panjang yang terbuat dari rotan, cocok untuk teras atau taman.",
+    category: "Kursi",
+    price: 750000,
+    capital: 650000,
+    profit: 100000,
+    stock: 5,
+    weight: 8000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 5,
+        comment: "Bangku yang ringan dan sangat nyaman.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c48",
+    },
+    name: "Meja Kerja Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja dengan desain modern, cocok untuk ruang kerja atau kantor.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 5,
+    weight: 23000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Meja yang sangat kokoh dan desainnya menarik.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c49",
+    },
+    name: "Stool Kayu Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool kayu dengan desain modern, cocok untuk ruang tamu atau ruang belajar.",
+    category: "Kursi",
+    price: 350000,
+    capital: 300000,
+    profit: 50000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sederhana dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c50",
+    },
+    name: "Lemari Buku Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lemari buku dengan desain modern, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Lemari",
+    price: 1250000,
+    capital: 1050000,
+
+
+    profit: 200000,
+    stock: 5,
+    weight: 20000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898440",
+        rating: 5,
+        comment: "Lemari buku yang elegan dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c51",
+    },
+    name: "Lampu Hias dengan Penyangga Logam",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu hias dengan penyangga logam, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan menambah suasana ruangan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c52",
+    },
+    name: "Rak Sepatu Logam",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak sepatu terbuat dari logam, cocok untuk menyimpan banyak sepatu.",
+    category: "Rak",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 5000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898490",
+        rating: 4,
+        comment: "Rak yang kokoh dan sangat praktis.",
+      },
+    ],
+  },
   {
     _id: {
       $oid: "6566c165801e99be12650c53",
     },
-    name: "sofa / sofa minimalis / sofa kaki stainless",
+    name: "Meja TV dengan Penyangga Kayu Merah",
     image: [
-      {
-        link: "https://down-id.img.susercontent.com/file/id-11134207-7r98p-lpcffy4sqn2l3c",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
-      },
       {
         link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
     ],
-    desc: "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
-    category: "Kursi",
-    price: 1400000,
-    capital: 1400000,
-    profit: 10000,
-    stock: 37,
-    weight: 1435,
-    rating: 5,
+    desc: "Meja TV dengan penyangga kayu, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.2,
     reviews: [
       {
-        user: "64aa82aba176b956ba8981ff",
-        rating: 5,
-        comment:
-          "Revision of Nonautologous Tissue Substitute in Kidney, Open Approach",
+        user: "64aa82aba176b956ba898420",
+        rating: 4,
+        comment: "Desain yang kokoh dan fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c54",
+    },
+    name: "Meja Kerja Sudut dengan Rak",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
-        user: "64aa82aba176b956ba898308",
-        rating: 3,
-        comment:
-          "Revision of Synthetic Substitute in Left Radius, Percutaneous Approach",
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja sudut dengan rak tambahan, cocok untuk ruang kerja yang terbatas.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 4,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Desain yang praktis dan sangat fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c55",
+    },
+    name: "Stool Roda Minimalis",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool roda dengan desain minimalis, cocok untuk ruang tamu atau ruang kerja.",
+    category: "Kursi",
+    price: 350000,
+    capital: 300000,
+    profit: 50000,
+    stock: 8,
+    weight: 2500,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sederhana dan kokoh.",
       },
     ],
   },
@@ -1011,71 +991,57 @@ const products = [
     _id: {
       $oid: "6566c165801e99be12650c56",
     },
-    name: "Vladamir Judson",
+    name: "Bangku Panjang Rotan dengan Bantalan Biru",
     image: [
       {
-        link: "https://down-id.img.susercontent.com/file/id-11134201-23020-ifookspicynv71",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/dddddd/000000",
-      },
-      {
         link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/cc0000/ffffff",
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
       },
     ],
-    desc: "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-    category: "Dekorasi",
-    price: 40000,
-    capital: 40000,
-    profit: 10000,
-    stock: 13,
-    weight: 2412,
-    rating: 5,
+    desc: "Bangku panjang terbuat dari rotan dengan bantalan lembut, cocok untuk teras atau taman.",
+    category: "Kursi",
+    price: 750000,
+    capital: 650000,
+    profit: 100000,
+    stock: 5,
+    weight: 8000,
+    rating: 4.3,
     reviews: [
       {
-        user: "64aa82aba176b956ba89835f",
+        user: "64aa82aba176b956ba898420",
         rating: 5,
-        comment:
-          "Reposition of Cervical Vertebra using Magnetically Controlled Growth Rod(s), Percutaneous Endoscopic Approach, New Technology Group 2",
+        comment: "Bangku yang ringan dan sangat nyaman.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c57",
+    },
+    name: "Lemari Buku Kayu dengan Rak Tambahan",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
-        user: "64aa82aba176b956ba8982ef",
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lemari buku dengan rak tambahan, cocok untuk ruang kerja atau perpustakaan pribadi.",
+    category: "Lemari",
+    price: 750000,
+    capital: 600000,
+    profit: 150000,
+    stock: 4,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
         rating: 5,
-        comment: "Repair Left Anterior Tibial Artery, Percutaneous Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898346",
-        rating: 4,
-        comment:
-          "Dilation of Left Popliteal Artery, Bifurcation, with Four or More Drug-eluting Intraluminal Devices, Percutaneous Approach",
-      },
-      {
-        user: "64aa82aba176b956ba8982fb",
-        rating: 5,
-        comment: "Bypass Left Vertebral Vein to Upper Vein, Open Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898197",
-        rating: 1,
-        comment: "Release Right Parotid Duct, Open Approach",
+        comment: "Desain yang praktis dan sangat kokoh.",
       },
     ],
   },
@@ -1083,66 +1049,1453 @@ const products = [
     _id: {
       $oid: "6566c165801e99be12650c58",
     },
-    name: "STOOL KAKI BESI MINIMALIS",
+    name: "Lampu Hias dengan Penyangga Kayu",
     image: [
-      {
-        link: "https://down-id.img.susercontent.com/file/id-11134207-7r98y-lseheljo2ph58a",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
       {
         link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
         link: "http://dummyimage.com/650x650.png/dddddd/000000",
       },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/5fa2dd/ffffff",
-      },
-      {
-        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
-      },
     ],
-    desc: "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
-    category: "Kursi",
-    price: 275000,
-    capital: 275000,
-    profit: 10000,
-    stock: 28,
-    weight: 4846,
-    rating: 4,
+    desc: "Lampu hias dengan penyangga kayu, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 200000,
+    capital: 150000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.3,
     reviews: [
       {
-        user: "64aa82aba176b956ba898284",
-        rating: 1,
-        comment: "Excision of Right Foot, Open Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898312",
+        user: "64aa82aba176b956ba898470",
         rating: 5,
-        comment:
-          "Drainage of Bilateral Fallopian Tubes, Percutaneous Endoscopic Approach",
+        comment: "Lampu yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c59",
+    },
+    name: "Stool dengan Roda dan Bantalan",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
       },
       {
-        user: "64aa82aba176b956ba8982da",
-        rating: 1,
-        comment:
-          "Drainage of Left Metatarsal, Percutaneous Approach, Diagnostic",
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
       },
+    ],
+    desc: "Stool dengan roda dan bantalan lembut, cocok untuk ruang kerja atau ruang belajar.",
+    category: "Kursi",
+    price: 550000,
+    capital: 450000,
+    profit: 100000,
+    stock: 6,
+    weight: 3000,
+    rating: 4.5,
+    reviews: [
       {
-        user: "64aa82aba176b956ba8981c8",
-        rating: 3,
-        comment: "Destruction of Prostate, Percutaneous Approach",
-      },
-      {
-        user: "64aa82aba176b956ba898365",
+        user: "64aa82aba176b956ba898510",
         rating: 5,
-        comment:
-          "Insertion of Intraluminal Device into Left Common Carotid Artery, Open Approach",
+        comment: "Stool yang sangat nyaman dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c60",
+    },
+    name: "Kursi Malas dengan Bantalan",
+    image:
+
+ [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Kursi malas dengan bantalan lembut, cocok untuk bersantai di rumah.",
+    category: "Kursi",
+    price: 800000,
+    capital: 650000,
+    profit: 150000,
+    stock: 7,
+    weight: 6000,
+    rating: 4.5,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 5,
+        comment: "Kursi yang sangat nyaman dan lembut.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c61",
+    },
+    name: "Meja TV dengan Rak Tambahan 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan rak tambahan, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 4,
+        comment: "Meja yang sangat fungsional dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c62",
+    },
+    name: "Meja Kerja dengan Rak Tambahan",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja dengan rak tambahan, cocok untuk ruang kerja yang luas.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 4,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Meja yang sangat kokoh dan fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c63",
+    },
+    name: "Rak Buku Kayu Minimalis",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak buku kayu dengan desain minimalis, cocok untuk ruang kerja atau perpustakaan.",
+    category: "Rak",
+    price: 750000,
+    capital: 600000,
+    profit: 150000,
+    stock: 4,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898460",
+        rating: 5,
+        comment: "Rak yang kokoh dan sangat praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c64",
+    },
+    name: "Stool Kayu dengan Sandaran",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool kayu dengan sandaran, cocok untuk ruang tamu atau ruang belajar.",
+    category: "Kursi",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sangat nyaman dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c65",
+    },
+    name: "Meja Rias dengan Cermin Besar 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja rias dengan cermin besar, cocok untuk kamar tidur.",
+    category: "Meja",
+    price: 1200000,
+    capital: 1000000,
+    profit: 200000,
+    stock: 4,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Meja rias yang sangat elegan dan fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c66",
+    },
+    name: "Lampu Meja dengan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu meja dengan desain unik, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c67",
+    },
+    name: "Meja Kerja L Minimalis",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja berbentuk L dengan desain minimalis, ideal untuk ruang kerja yang luas.",
+    category: "Meja",
+    price: 1500000,
+    capital: 1300000,
+    profit: 200000,
+    stock: 5,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Meja yang kokoh dan sangat praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c68",
+    },
+    name: "Bangku Panjang Kayu dengan Bantalan 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Bangku panjang terbuat dari kayu dengan bantalan lembut, cocok untuk ruang makan atau teras rumah.",
+    category: "Kursi",
+    price: 850000,
+    capital: 750000,
+    profit: 100000,
+    stock: 6,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 5,
+        comment: "Bangku yang sangat nyaman dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c69",
+    },
+    name: "Rak Buku dengan Penyangga Logam 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak buku dengan penyangga logam, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Rak",
+    price: 950000,
+    capital: 750000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user:
+
+ "64aa82aba176b956ba898460",
+        rating: 5,
+        comment: "Rak buku yang kokoh dan desainnya modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c70",
+    },
+    name: "Meja TV dengan Rak Tersembunyi",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan rak tersembunyi, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 4,
+        comment: "Desain yang sangat fungsional dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c71",
+    },
+    name: "Lampu Meja dengan Desain Minimalis",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu meja dengan desain minimalis, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat minimalis dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c72",
+    },
+    name: "Meja Kerja dengan Laci Tambahan 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja dengan laci tambahan, cocok untuk ruang kerja yang luas.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 4,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Desain yang praktis dan sangat fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c73",
+    },
+    name: "Stool Bulat Minimalis dengan Bantalan",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool bulat dengan desain minimalis dan bantalan lembut, cocok untuk ruang tamu atau ruang belajar.",
+    category: "Kursi",
+    price: 350000,
+    capital: 300000,
+    profit: 50000,
+    stock: 8,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sangat nyaman dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c74",
+    },
+    name: "Rak Buku dengan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak buku dengan desain unik, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Rak",
+    price: 750000,
+    capital: 600000,
+    profit: 150000,
+    stock: 5,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898460",
+        rating: 5,
+        comment: "Rak buku yang sangat unik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c75",
+    },
+    name: "Meja TV dengan Penyangga Logam 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan penyangga logam, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 4,
+        comment: "Desain yang sangat fungsional dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c76",
+    },
+    name: "Meja Belajar dengan Desain Unik 1",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja belajar dengan desain unik, cocok untuk ruang kerja atau ruang belajar.",
+    category: "Meja",
+    price: 400000,
+    capital: 350000,
+    profit: 50000,
+    stock: 10,
+    weight: 2000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898340",
+        rating: 4,
+        comment: "Desain yang sangat menarik dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c77",
+    },
+    name: "Stool Kayu dengan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool kayu dengan desain unik, cocok untuk ruang tamu atau ruang belajar.",
+    category: "Kursi",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sangat menarik dan unik.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c78",
+    },
+    name: "Lemari Buku dengan Penyangga Logam",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lemari buku dengan penyangga logam, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Lemari",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 5,
+    weight: 20000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898440",
+        rating: 5,
+        comment: "Lemari buku yang sangat kokoh dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c79",
+    },
+    name: "Lampu Hias dengan Desain Unik Besar",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu hias dengan desain unik, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c80",
+    },
+    name: "Meja Kerja dengan Laci Tambahan 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja dengan laci tambahan, cocok untuk ruang kerja yang luas.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 4,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Desain yang praktis dan sangat fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c81",
+    },
+    name: "Meja TV dengan Rak Tambahan 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan rak tambahan, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 4,
+        comment: "Desain yang sangat fungsional dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c82",
+    },
+    name: "Stool Roda dengan Bantalan 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool dengan roda dan bantalan lembut, cocok untuk ruang kerja atau ruang belajar.",
+    category: "Kursi",
+    price: 550000,
+    capital: 450000,
+    profit: 100000,
+    stock: 6,
+    weight: 3000,
+    rating: 4.5,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Stool yang sangat nyaman dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c83",
+    },
+    name: "Bangku Panjang Kayu dengan Bantalan 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Bangku panjang terbuat dari kayu dengan bantalan lembut, cocok untuk ruang makan atau teras rumah.",
+    category: "Kursi",
+    price: 850000,
+    capital: 750000,
+    profit: 100000,
+    stock: 6,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 5,
+        comment: "Bangku yang sangat nyaman dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c84",
+    },
+    name: "Rak Buku dengan Penyangga Logam 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak buku dengan penyangga logam, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Rak",
+    price: 950000,
+    capital: 750000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898460",
+        rating: 5,
+        comment: "Rak buku yang kokoh dan desainnya modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c85",
+    },
+    name: "Meja Kerja Sudut Minimalis",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja dengan desain sudut, cocok untuk ruang kerja yang terbatas.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 4,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Desain yang sangat praktis dan fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c86",
+    },
+    name: "Lampu Meja dengan Desain Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu meja dengan desain modern, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c87",
+    },
+    name: "Meja Rias dengan Cermin Besar 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja rias dengan cermin besar, cocok untuk kamar tidur.",
+    category: "Meja",
+    price: 1200000,
+    capital: 1000000,
+    profit: 200000,
+    stock: 4,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Meja rias yang sangat elegan dan fungsional.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c88",
+    },
+    name: "Stool Lipat dengan Bantalan 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool lipat dengan bantalan, cocok untuk ruang tamu atau ruang makan.",
+    category: "Kursi",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sangat nyaman dan mudah disimpan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c89",
+    },
+    name: "Rak Buku dengan Rak Tambahan",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak buku dengan rak tambahan, cocok untuk ruang kerja atau perpustakaan pribadi.",
+    category: "Rak",
+    price: 750000,
+    capital: 600000,
+    profit: 150000,
+    stock: 4,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898460",
+        rating: 5,
+        comment: "Desain yang praktis dan sangat kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c90",
+    },
+    name: "Kursi Kantor dengan Desain Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Kursi kantor dengan desain modern, cocok untuk bekerja dalam waktu lama.",
+    category: "Kursi",
+    price: 850000,
+    capital: 750000,
+    profit: 100000,
+    stock: 6,
+    weight: 8000,
+    rating: 4.5,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Kursi yang sangat nyaman dan mendukung produktivitas.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c91",
+    },
+    name: "Meja TV dengan Rak Tambahan 3",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan rak tambahan, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898400",
+        rating: 4,
+        comment: "Desain yang sangat fungsional dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c92",
+    },
+    name: "Bangku Panjang Rotan Besar",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Bangku panjang yang terbuat dari rotan, cocok untuk teras atau taman.",
+    category: "Kursi",
+    price: 750000,
+    capital: 650000,
+    profit: 100000,
+    stock: 5,
+    weight: 8000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 5,
+        comment: "Bangku yang sangat ringan dan nyaman.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c93",
+    },
+    name: "Stool Lipat dengan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool lipat dengan desain unik, cocok untuk ruang tamu atau ruang makan.",
+    category: "Kursi",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sangat praktis dan mudah disimpan.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c94",
+    },
+    name: "Lampu Meja dengan Penyangga Logam",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu meja dengan penyangga logam, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat modern dan menarik.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c95",
+    },
+    name: "Meja Belajar dengan Desain Unik 3",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja belajar dengan desain unik, cocok untuk ruang kerja atau ruang belajar.",
+    category: "Meja",
+    price: 400000,
+    capital: 350000,
+    profit: 50000,
+    stock: 10,
+    weight: 2000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898340",
+        rating: 4,
+        comment: "Desain yang sangat unik dan menarik.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c96",
+    },
+    name: "Stool Kayu dengan Sandaran Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool kayu dengan sandaran unik, cocok untuk ruang tamu atau ruang belajar.",
+    category: "Kursi",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Stool yang sangat menarik dan praktis.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c97",
+    },
+    name: "Meja Kerja dengan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja kerja dengan desain unik, cocok untuk ruang kerja atau kantor.",
+    category: "Meja",
+    price: 1250000,
+    capital: 1050000,
+    profit: 200000,
+    stock: 4,
+    weight: 25000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Desain yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c98",
+    },
+    name: "Bangku Panjang Rotan dengan Bantalan Merah",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Bangku panjang terbuat dari rotan dengan bantalan lembut, cocok untuk teras atau taman.",
+    category: "Kursi",
+    price: 850000,
+    capital: 750000,
+    profit: 100000,
+    stock: 6,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 5,
+        comment: "Bangku yang sangat ringan dan nyaman.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c99",
+    },
+    name: "Lampu Hias dengan Desain Unik Kecil",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu hias dengan desain unik, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.2,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c100",
+    },
+    name: "Rak Buku dengan Desain Modern",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak buku dengan desain modern, cocok untuk ruang tamu atau perpustakaan.",
+    category: "Rak",
+    price: 750000,
+    capital: 600000,
+    profit: 150000,
+    stock: 5,
+    weight: 12000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898460",
+        rating: 5,
+        comment: "Rak buku yang sangat kokoh dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c101",
+    },
+    name: "Stool dengan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool dengan desain unik, cocok untuk ruang tamu atau ruang belajar.",
+    category: "Kursi",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 2500,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 4,
+        comment: "Desain yang sangat menarik dan unik.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c102",
+    },
+    name: "Bangku Panjang Kayu",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Bangku panjang terbuat dari kayu, cocok untuk ruang makan atau teras rumah.",
+    category: "Kursi",
+    price: 750000,
+    capital: 650000,
+    profit: 100000,
+    stock: 5,
+    weight: 8000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898420",
+        rating: 5,
+        comment: "Bangku yang sangat nyaman dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c103",
+    },
+    name: "Lampu Meja dengan Penyangga Kayu Besar",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Lampu meja dengan penyangga kayu, cocok untuk dekorasi dan penerangan tambahan.",
+    category: "Dekorasi",
+    price: 250000,
+    capital: 200000,
+    profit: 50000,
+    stock: 12,
+    weight: 1000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898470",
+        rating: 5,
+        comment: "Lampu yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c104",
+    },
+    name: "Rak Sepatu dengan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Rak sepatu dengan desain unik, cocok untuk menyimpan banyak sepatu.",
+    category: "Rak",
+    price: 450000,
+    capital: 350000,
+    profit: 100000,
+    stock: 10,
+    weight: 5000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898490",
+        rating: 5,
+        comment: "Rak yang sangat praktis dan kokoh.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c105",
+    },
+    name: "Stool dengan Roda dan Desain Unik",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Stool dengan roda dan desain unik, cocok untuk ruang kerja atau ruang belajar.",
+    category: "Kursi",
+    price: 550000,
+    capital: 450000,
+    profit: 100000,
+    stock: 6,
+    weight: 3000,
+    rating: 4.5,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898510",
+        rating: 5,
+        comment: "Desain yang sangat menarik dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c106",
+    },
+    name: "Meja TV dengan Penyangga Kayu Kuning",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja TV dengan penyangga kayu, cocok untuk perangkat hiburan dan dekorasi.",
+    category: "Meja",
+    price: 1050000,
+    capital: 850000,
+    profit: 200000,
+    stock: 5,
+    weight: 15000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898410",
+        rating: 5,
+        comment: "Desain yang sangat fungsional dan modern.",
+      },
+    ],
+  },
+  {
+    _id: {
+      $oid: "6566c165801e99be12650c107",
+    },
+    name: "Meja Belajar dengan Desain Unik 2",
+    image: [
+      {
+        link: "http://dummyimage.com/650x650.png/ff4444/ffffff",
+      },
+      {
+        link: "http://dummyimage.com/650x650.png/dddddd/000000",
+      },
+    ],
+    desc: "Meja belajar dengan desain unik, cocok untuk ruang kerja atau ruang belajar.",
+    category: "Meja",
+    price: 400000,
+    capital: 350000,
+    profit: 50000,
+    stock: 10,
+    weight: 2000,
+    rating: 4.3,
+    reviews: [
+      {
+        user: "64aa82aba176b956ba898340",
+        rating: 4,
+        comment: "Desain yang sangat menarik dan praktis.",
       },
     ],
   },
