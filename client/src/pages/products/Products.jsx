@@ -9,42 +9,50 @@ import { Box } from "@mui/system";
 import { useState } from "react";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
 import Pagination from "@mui/material/Pagination";
-
+import { useNavigate } from "react-router-dom";
 
 const Products = () => {
+  const navigate = useNavigate();
+
   const [searchTerm, setSearchTerm] = useState("");
   const [categoryTerm, setCategoryTerm] = useState("");
   const searchFunction = (e) => {
-    const {name, value} = e.target;
-    if(name === "search"){
-      setSearchTerm(value)
-    }else if(name === "category"){
-      setCategoryTerm(value)
+    const { name, value } = e.target;
+    if (name === "search") {
+      setSearchTerm(value);
+    } else if (name === "category") {
+      setCategoryTerm(value);
     }
   };
 
   const filtered = (product) => {
     const name = product.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const category = product.category.toLowerCase().includes(categoryTerm.toLowerCase());
-    return name && category
+    const category = product.category
+      .toLowerCase()
+      .includes(categoryTerm.toLowerCase());
+    return name && category;
   };
   const filteredProducts = products.filter(filtered);
   const categories = [...new Set(products.map((product) => product.category))];
 
-  const productPerPage = 20
-  const [currentPage, setCurrentPage] = useState(1)
+  const productPerPage = 20;
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const startIndex = (currentPage - 1) * productPerPage
-  const endIndex = startIndex + productPerPage
-  const paginatedProducts = filteredProducts.slice(startIndex, endIndex)
-  const pageCount = Math.ceil(filteredProducts.length / productPerPage)
-  const pageChanging = (event, page) =>{
-    setCurrentPage(page)
-  }
+  const startIndex = (currentPage - 1) * productPerPage;
+  const endIndex = startIndex + productPerPage;
+  const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+  const pageCount = Math.ceil(filteredProducts.length / productPerPage);
+  const pageChanging = (event, page) => {
+    setCurrentPage(page);
+  };
+
+  const detailProductPage = (product) => {
+    navigate(`/${product}`);
+  };
 
   return (
     <Box sx={{ display: "flex", flexDirection: "column", width: "100%", p: 2 }}>
-      <Box sx={{display: "flex", justifyContent: "space-between"}}>
+      <Box sx={{ display: "flex", justifyContent: "space-between" }}>
         <Input
           placeholder="Cari sesuatu?"
           type="text"
@@ -53,7 +61,7 @@ const Products = () => {
           value={searchTerm}
           sx={{ p: 1 }}
         />
-        <FormControl sx={{width: 300}}>
+        <FormControl sx={{ width: 300 }}>
           <InputLabel>Kategori</InputLabel>
           <Select
             name="category"
@@ -63,7 +71,9 @@ const Products = () => {
           >
             <MenuItem value="">Semua</MenuItem>
             {categories.map((item, index) => (
-              <MenuItem key={index} value={item}>{item}</MenuItem>
+              <MenuItem key={index} value={item}>
+                {item}
+              </MenuItem>
             ))}
           </Select>
         </FormControl>
@@ -78,7 +88,15 @@ const Products = () => {
         }}
       >
         {paginatedProducts.map((product) => (
-          <Card key={product.name} sx={{ width: 210, minHeight: 280 }}>
+          <Card
+            key={product.name}
+            sx={{
+              width: 210,
+              minHeight: 280,
+              "&:hover": { cursor: "pointer" },
+            }}
+            onClick={() => detailProductPage(product.name)}
+          >
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -93,22 +111,32 @@ const Products = () => {
                   whiteSpace: "nowrap",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
-                  fontSize: '0.9rem'
+                  fontSize: "0.9rem",
                 }}
               >
                 {product.name}
               </Typography>
-              <Typography fontWeight="bold" sx={{ fontSize: '1rem' }}>
-                {`Rp.${parseFloat(
-                  product.price
-                ).toLocaleString("id-ID")}`}
+              <Typography fontWeight="bold" sx={{ fontSize: "1rem" }}>
+                {`Rp.${parseFloat(product.price).toLocaleString("id-ID")}`}
               </Typography>
               <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-                <Typography sx={{ display: "flex", alignItems: "center", fontSize: '0.75rem' }}>
+                <Typography
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontSize: "0.75rem",
+                  }}
+                >
                   <StarRoundedIcon sx={{ color: "orange" }} />
                   {product.rating}
                 </Typography>
-                <Typography sx={{ display: "flex", alignItems: "center", fontSize: '0.75rem' }}>
+                <Typography
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontSize: "0.75rem",
+                  }}
+                >
                   Stok: {product.stock}
                 </Typography>
               </Box>
@@ -116,8 +144,12 @@ const Products = () => {
           </Card>
         ))}
       </Box>
-      <Box sx={{p: 2, display: "flex", justifyContent: "center"}}>
-        <Pagination count={pageCount || 1} page={currentPage} onChange={pageChanging}/>
+      <Box sx={{ p: 2, display: "flex", justifyContent: "center" }}>
+        <Pagination
+          count={pageCount || 1}
+          page={currentPage}
+          onChange={pageChanging}
+        />
       </Box>
     </Box>
   );

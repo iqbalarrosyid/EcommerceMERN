@@ -2,3 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Terapkan font ke seluruh body */
+body {
+  font-family: 'Open Sauce One', sans-serif;
+}
+
+p {
+  margin: 0;
+}

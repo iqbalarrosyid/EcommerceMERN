@@ -32,23 +32,20 @@ const Footer = () => {
           </Typography>
         </Box>
         <Box sx={{ paddingTop: 1, paddingRight: 10 }}>
+          <Typography variant="h6" fontWeight="bold">
+            Kontak dan Lokasi
+          </Typography>
+          <Typography variant="body2">Kontak: 083894056521</Typography>
           <Typography variant="body2">
-            <Box>
-              <h3>Kontak dan Lokasi</h3>
-              <br />
-              <p>Kontak: 083894056521</p>
-              <p>
-                393R+5XP, Ngrancah, Sriharjo, Kec. Imogiri, Kabupaten Bantul,
-                Daerah Istimewa Yogyakarta 55782
-              </p>
-            </Box>
+            393R+5XP, Ngrancah, Sriharjo, Kec. Imogiri, Kabupaten Bantul, Daerah
+            Istimewa Yogyakarta 55782
           </Typography>
         </Box>
         <Box sx={{ paddingTop: 1 }}>
-          <Typography>
-            <h3>Sosial Media</h3>
-            <br />
+          <Typography variant="h6" fontWeight="bold">
+            Sosial Media
           </Typography>
+          <br />
           <Box sx={{ display: "flex", gap: 5 }}>
             <FacebookIcon />
             <InstagramIcon />
