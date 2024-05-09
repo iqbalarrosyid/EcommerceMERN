@@ -3,6 +3,10 @@ import Appbar from "../../components/appbar/Appbar";
 import Footer from "../../components/footer/Footer";
 import Typography from "@mui/material/Typography";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
+import IconButton from "@mui/material/IconButton";
+import KeyboardArrowLeftRoundedIcon from "@mui/icons-material/KeyboardArrowLeftRounded";
+import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
+import { useState } from "react";
 
 const createMarkUp = (html) => {
   return { __html: html };
@@ -48,19 +52,64 @@ const DetailProduct = () => {
       },
     ],
   };
+
+  const [imageIndex, setIndex] = useState(0);
+
+  const left = () => {
+    setIndex((imageIndex - 1 + product.image.length) % product.image.length);
+  };
+
+  const right = () => {
+    setIndex((imageIndex + 1) % product.image.length);
+  };
   return (
     <Box>
       <Appbar />
-      <Box sx={{ display: "flex", height: "auto" }}>
-        <Box sx={{ display: "flex", flex: 2 }}>
+      <Box sx={{ display: "flex", minHeight: "85vh" }}>
+        <Box sx={{ display: "flex", flex: 2, alignItems: "start" }}>
           <Box
-            sx={{ flex: 1, display: "flex", justifyContent: "center", p: 2 }}
+            sx={{
+              flex: 1,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              p: 2,
+              flexDirection: "column",
+            }}
           >
-            <img
-              src={product.image[0].link}
-              alt={product.name}
-              style={{ height: "380px", width: "380px", borderRadius: "10px" }}
-            />
+            <Box
+              sx={{
+                position: "relative",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src={product.image[imageIndex].link}
+                alt={product.name}
+                style={{
+                  height: "380px",
+                  width: "380px",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                }}
+              />
+            </Box>
+            <Box
+              sx={{
+                position: "absolute",
+                width: "380px",
+                display: "flex",
+                justifyContent: "space-between",
+              }}
+            >
+              <IconButton onClick={left}>
+                <KeyboardArrowLeftRoundedIcon />
+              </IconButton>
+              <IconButton onClick={right}>
+                <KeyboardArrowRightRoundedIcon />
+              </IconButton>
+            </Box>
           </Box>
           <Box
             sx={{
@@ -104,7 +153,7 @@ const DetailProduct = () => {
             />
           </Box>
         </Box>
-        <Box sx={{ display: "flex", flex: 1, p: 2 }}>Counter</Box>
+        <Box sx={{ display: "flex", flex: 1, p: 2 }}>Order</Box>
       </Box>
       <Footer />
     </Box>
