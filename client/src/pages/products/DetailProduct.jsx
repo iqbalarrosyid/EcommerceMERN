@@ -7,6 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import KeyboardArrowLeftRoundedIcon from "@mui/icons-material/KeyboardArrowLeftRounded";
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
 import { useState } from "react";
+import Order from "./Order";
 
 const createMarkUp = (html) => {
   return { __html: html };
@@ -26,7 +27,7 @@ const DetailProduct = () => {
         link: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/109/MTA-146396881/infinix_infinix_smart_8_ram_4-4-128gb_garansi_resmi_full01_jj07cz3z.jpg",
       },
     ],
-    desc: '<p><span style="color: rgb(33, 33, 33);">Infinix INBOOK X2</span></p><p><span style="color: rgb(33, 33, 33);">Color : Grey, Blue, Red</span></p><p><br></p><p><span style="color: rgb(33, 33, 33);">Perfect Style, Amazing Display</span></p><p><br></p><p><span style="color: rgb(33, 33, 33);">• Processor : octa-core (2 x 1.6 GHz Cortex-A75 dan 6 x 1.6 GHz Cortex-A55)</span></p><p><span style="color: rgb(33, 33, 33);">• Memory : 4GB</span></p><p><span style="color: rgb(33, 33, 33);">• Storage : 128 GB emmc</span></p><p><span style="color: rgb(33, 33, 33);">• Operating System : Android 12 with XOS</span></p><p><span style="color: rgb(33, 33, 33);">• Display : IPS LCD 6.6 in dengan resolusi 720 x 1612 piksel, refresh rate 90 Hz, dan kecerahan maksimal 500 nits</span></p><p><span style="color: rgb(33, 33, 33);">• Graphics : GPU Mali-G57 MP1;">• Battery : 50 Wh</span></p><p><span style="color: rgb(33, 33, 33);">• Wi-Fi : IEEE 802.11a/b/g/n/ac,160MHz 2.4GHz and 5GHz</span></p><p><span style="color: rgb(33, 33, 33);">• Bluetooth : BT 5.1</span></p><p><br></p><p><span style="color: rgb(33, 33, 33);">Garansi Resmi Infinix Indonesia 2 Tahun</span></p>',
+    desc: '<p><span style="color: rgb(33, 33, 33);">Infinix INBOOK X2</span></p><p><span style="color: rgb(33, 33, 33);">Color : Grey, Blue, Red</span></p><p><br></p><p><span style="color: rgb(33, 33, 33);">Perfect Style, Amazing Display</span></p><p><br></p><p><span style="color: rgb(33, 33, 33);">• Processor : octa-core (2 x 1.6 GHz Cortex-A75 dan 6 x 1.6 GHz Cortex-A55)</span></p><p><span style="color: rgb(33, 33, 33);">• Memory : 4GB</span></p><p><span style="color: rgb(33, 33, 33);">• Storage : 128 GB emmc</span></p><p><span style="color: rgb(33, 33, 33);">• Operating System : Android 12 with XOS</span></p><p><span style="color: rgb(33, 33, 33);">• Display : IPS LCD 6.6 in dengan resolusi 720 x 1612 piksel, refresh rate 90 Hz, dan kecerahan maksimal 500 nits</span></p><p><span style="color: rgb(33, 33, 33);">• Graphics : GPU Mali-G57 MP1</span></p><p><span style="color: rgb(33, 33, 33);">• Wi-Fi : IEEE 802.11a/b/g/n/ac,160MHz 2.4GHz and 5GHz</span></p><p><span style="color: rgb(33, 33, 33);">• Bluetooth : BT 5.1</span></p><p><br></p><p><span style="color: rgb(33, 33, 33);">Garansi Resmi Infinix Indonesia 2 Tahun</span></p>',
     category: "Kursi",
     price: 1500000,
     capital: 650000,
@@ -65,7 +66,7 @@ const DetailProduct = () => {
   return (
     <Box>
       <Appbar />
-      <Box sx={{ display: "flex", minHeight: "85vh" }}>
+      <Box sx={{ display: "flex", minHeight: "110vh" }}>
         <Box sx={{ display: "flex", flex: 2, alignItems: "start" }}>
           <Box
             sx={{
@@ -153,7 +154,17 @@ const DetailProduct = () => {
             />
           </Box>
         </Box>
-        <Box sx={{ display: "flex", flex: 1, p: 2 }}>Order</Box>
+        <Box
+          sx={{
+            display: "flex",
+            flex: 1,
+            p: 2,
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Order />
+        </Box>
       </Box>
       <Footer />
     </Box>
