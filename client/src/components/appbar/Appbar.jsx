@@ -1,7 +1,6 @@
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-// import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import LoginIcon from "@mui/icons-material/Login";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -9,9 +8,11 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Appbar = () => {
-  const user = "admin";
+  const navigate = useNavigate();
+  const user = "";
   const userMenu = ["Profile", "Orders", "Logout"];
   const adminMenu = ["Setting", "Dashboard", "Logout"];
   const [open, setOpen] = useState(null);
@@ -22,17 +23,23 @@ const Appbar = () => {
     setOpen(null);
   };
 
+  const toCart = () => navigate("/cart");
+  const toHome = () => navigate("/");
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: "white" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-          <img
-            src="/RBlogo.png"
-            alt="logo"
-            style={{ height: "70px", width: "70px", objectFit: "contain" }}
-          />
+          <Box sx={{ cursor: "pointer" }} onClick={toHome}>
+            <img
+              src="/RBlogo.png"
+              alt="logo"
+              style={{ height: "70px", width: "70px", objectFit: "contain" }}
+            />
+          </Box>
+
           <Box sx={{ display: "flex", gap: 1 }}>
-            <IconButton>
+            <IconButton onClick={toCart}>
               <ShoppingCartIcon />
             </IconButton>
 
